@@ -1,0 +1,10 @@
+//
+//  PortableStaticLibrary.xcconfig
+//  OCMock
+//
+//  Created by Daniel Schneller on 20.12.11.
+//  Copyright (c) 2011 ThoughtWorks. All rights reserved.
+//
+PUBLIC_HEADERS_FOLDER_PATH = include/$(PROJECT_NAME)
+INSTALL_PATH               = /../BuildProductsPath/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/
+OTHER_LDFLAGS              = -ObjC -all_load

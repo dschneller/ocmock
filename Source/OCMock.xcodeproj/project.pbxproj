@@ -199,6 +199,7 @@
 		03B3168C14633B1D0052CD09 /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = "../../../../Library/Developer/Xcode/DerivedData/OCMock-eiknerwmaxlkjybhjofygdhyagum/Build/Products/Debug/Frameworks/OCHamcrest.framework"; sourceTree = "<group>"; };
 		03B3168F14633FAB0052CD09 /* Changes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changes.txt; sourceTree = "<group>"; };
 		03B3169014633FAB0052CD09 /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		41F5E81A14A08ED000A38936 /* PortableStaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PortableStaticLibrary.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				030EF0E114632FF700B04273 /* OCMockLib-Prefix.pch */,
+				41F5E81A14A08ED000A38936 /* PortableStaticLibrary.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -847,6 +849,7 @@
 		};
 		030EF0E614632FF700B04273 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F5E81A14A08ED000A38936 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/OCMockLib.dst;
@@ -863,6 +866,7 @@
 		};
 		030EF0E714632FF700B04273 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F5E81A14A08ED000A38936 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/OCMockLib.dst;
